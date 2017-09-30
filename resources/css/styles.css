@@ -1,0 +1,443 @@
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.logoPrincipal{
+    display: none;
+
+}
+
+.datos{
+    padding-left: 1%;
+    border: 1px solid #f0f2f1;
+    margin-bottom: 10px;
+    background: white;
+
+}
+
+
+
+
+
+h3{
+    font-size: 100%;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.politicaPrivacidad{
+    text-align: justify;
+}
+
+.slider{
+    display: none;
+}
+
+
+
+.card-title{
+    text-align: center;
+}
+
+nav .nav-wrapper{
+    background: #4d4dff;
+}
+
+nav .brand-logo{
+    line-height: 50px;
+}
+
+
+
+
+.listaDeItems{
+    text-align: justify;
+}
+
+.tituloBloque h4{
+    padding: 8%;
+
+}
+p{   
+    font-size: 20px;
+
+}
+
+input[type="text"],input[type="date"],textarea,input[type="email"],.select-wrapper input.select-dropdown {
+    border: 1px solid #f0f2f1;
+    background: white;
+
+}
+
+
+.horariosActividades{
+    padding: 4%;
+}
+
+.card{
+
+    text-align: justify;
+}
+nav {
+
+    background: transparent;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    line-height: 100px;
+
+}
+nav ul a{
+    color: black;
+    font-size: 23px;
+}
+
+.bloqueNoticias{
+    margin-top: -100px;
+    text-align: center;
+
+
+}
+
+
+.tituloNosotros,.bloques{
+    text-align: justify;
+}
+
+
+.card-title{
+    font-size: 25px;
+}
+
+.card-action{
+    font-size: 20px;
+
+}
+
+
+
+.bloquesInformativos{
+    text-align: center;
+
+}
+
+.bloquesInformativos p{
+    font-size: 28px;
+
+}
+
+
+.progress{
+    display: none;
+}
+
+
+
+.catalogoActividades{
+    padding: 10%;
+    font-size: 20px;
+
+}
+
+h3{
+    font-size: 6em;
+}
+
+.header{
+    font-size: 20px;
+}
+
+
+.contenidoBloque{
+    text-align: justify;
+}
+
+
+
+.card .card-image{
+    text-align: center;
+
+}
+
+.imagenInformativo{
+    width: 100%;
+}
+
+.socialMediaIcons{
+    display: inline-block;
+}
+
+#facebook{
+    background-image: url('../img/socialicons____.png');
+    width: 70px;
+    height: 60px;
+    margin-left:-12px;
+}
+#twitter{
+    background-image: url('../img/socialicons____.png');
+    width: 42px;
+    height: 60px;
+    background-position: -281px 0px;
+    margin-left: 8px;
+
+}
+
+#youtube{
+    margin-left: 1px;
+    background-image: url('../img/socialicons____.png');
+    width: 42px;
+    height: 60px;
+    background-position: -240px 0px;
+}
+#pinterest{
+    margin-left: -10px;
+    background-image: url('../img/socialicons____.png');
+    width: 42px;
+    height: 60px;
+    background-position: -155px 0px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    /*    //colores usados: color: #9CADD3;*/
+
+    body{
+        background: #69F0AE;
+
+    }
+
+    .logoPrincipal{
+        display: block;
+        text-align: center; 
+        background-color: rgb(255, 204, 102);
+    }
+
+    .slider{
+        display: block;
+    }
+
+    .logoPrincipal p{
+        font-size: 8em;
+        color: white;
+        font-family: "century gothic";
+    }
+
+    .noticiaCentral{
+        background: white;
+        margin-top: -20px;
+        padding: 3%;
+        text-align: justify;
+    }
+
+    .titularNoticiaCentral{
+        background: #70bced;
+    }
+
+
+    nav .brand-logo {
+        display: none;
+    }
+
+    nav {
+        height: 100px;
+        line-height: 100px;
+        box-shadow: none;
+        background-color: white;
+
+    }
+
+    nav ul li a{
+        color: black;
+    }
+
+    nav .nav-wrapper{
+        background: none;
+    }
+
+
+    .contactForm{
+        background: white;
+    }
+    .tituloBloquesInformativos h4{
+        
+        font-size: 4em;
+    }
+
+    .bloquesInformativos{
+        margin-top: -20px;
+        padding: 2.5%;
+        background: #70bced;
+    }
+
+    .titularNoticias{
+
+        padding: 2%;
+        color: #9CADD3;
+        background: white;
+    }
+
+
+
+    .bloqueTitular h4{
+        font-size: 4em;
+
+    }
+
+    .titularNoticias h4{
+        color: #9CADD3;
+        font-size: 4em;
+    }
+    nav ul a{
+        color: #9CADD3;
+    }
+
+
+    form{
+
+        color: #9CADD3;
+    }
+
+    .titularContacto{
+        padding: 1%;
+    }
+
+    .formulario{
+        margin-top: -35px;
+    }
+
+    .noticias{
+        padding-top: 2%;
+        width: 90%;
+        padding-left: 12%;
+    }
+
+    .bloquesActividades{
+        width: 90%;
+        padding-left: 11%; 
+        text-align: center;
+    }
+
+    .card img{
+        width: 90%;
+        height: 240px;
+    }      
+
+    .bloques{
+        text-align: justify;
+    }
+
+    .bloques h4{
+        color: #9CADD3;
+
+    }
+
+
+    .btn{
+        background: #9CADD3;
+    }
+
+
+
+    .footer{
+
+        background: #70bced;
+
+    }
+    
+    .formulario{
+        background: white;
+    }
+
+
+    .headerNosotros{
+        color:#9CADD3;
+        font-size: 20px;
+        background: white;
+        
+
+    }
+
+    .headerNosotros h4{
+        font-size: 4em;
+    }
+
+    .header{
+        font-size: 30px;
+    }
+
+
+    .bloqueActividades{
+        width: 80%;
+    }
+
+    .categoriaActividad{
+        margin-top: 20px;
+        background: white;
+        color: #9CADD3;
+        padding: 2%;
+    }
+    .catalogoActividades{
+        background: white;
+        color: #69F0AE;
+
+    }
+
+
+    .catalogoActividades h4{
+        font-size: 4em;
+    }
+    .imagenInformativo{
+        width: 100%;
+        height: 300px;
+    }
+
+    .cabezal{
+        font-size: 30px;
+    }
+
+    .card .card-action{
+        font-size: 20px;
+        padding:4px;
+        text-align: center;
+
+    }
+
+    .bloqueHoras{
+        text-align: center;
+    }
+
+    .carousel{
+        width: 100%;
+    }
+
+    .carousel img{
+
+        height: 412px;
+    }
+
+    .tituloNosotros{
+        background: white;
+        text-align: justify;
+    }
+
+    nav ul a:hover{
+        background: none;
+        color: red;
+    }
+
+    .noticiaVacaciones{
+        background: none;
+    }
+
+
+
+
+}
+
+
