@@ -4,6 +4,8 @@
 <?php
 include 'core/Factory.php';
 
+
+
 ?>
 
 <html>
@@ -43,7 +45,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getSpecificField('actividades','categoria_actividad',1);
+                    $creativas = $queryBuilder->getTableActividades(1);
                     foreach($creativas as $creativa): ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
@@ -69,7 +71,7 @@ include 'core/Factory.php';
                 </div>
                <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getSpecificField('actividades','categoria_actividad',3);
+                     $creativas = $queryBuilder->getTableActividades(3);
                     foreach($creativas as $creativa): ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
@@ -96,7 +98,7 @@ include 'core/Factory.php';
                 </div>
                  <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getSpecificField('actividades','categoria_actividad',2);
+                     $creativas = $queryBuilder->getTableActividades(2);
                     foreach($creativas as $creativa): ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
@@ -121,7 +123,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getSpecificField('actividades','categoria_actividad',4);
+                     $creativas = $queryBuilder->getTableActividades(4);
                     foreach($creativas as $creativa): ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
@@ -147,7 +149,7 @@ include 'core/Factory.php';
                 </div>
                  <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getSpecificField('actividades','categoria_actividad',5);
+                     $creativas = $queryBuilder->getTableActividades(5);
                     foreach($creativas as $creativa): ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
@@ -173,7 +175,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getSpecificField('actividades','categoria_actividad',6);
+                     $creativas = $queryBuilder->getTableActividades(6);
                     foreach($creativas as $creativa): ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
