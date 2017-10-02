@@ -3,9 +3,6 @@
 <!DOCTYPE html>
 <?php
 include 'core/Factory.php';
-
-
-
 ?>
 
 <html>
@@ -13,10 +10,14 @@ include 'core/Factory.php';
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Actividades</title>
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
-        <script src="resources/js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <script src="resources/js/navbar.js"></script>
-        <link rel="stylesheet" href="resources/css/materialize.css">
         <link rel="stylesheet" href="resources/css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     </head>
@@ -46,18 +47,19 @@ include 'core/Factory.php';
                 <div class="row">
                     <?php
                     $creativas = $queryBuilder->getTableActividades(1);
-                    foreach($creativas as $creativa): ?>
+                    foreach ($creativas as $creativa):
+                        ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?=$creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?=$creativa['informacion_actividad'] ?></p>
+                                    <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
                         </div>
                         <?php
-                        endforeach;
+                    endforeach;
                     ?>
                 </div>  
                 <div class="row">
@@ -69,21 +71,22 @@ include 'core/Factory.php';
                         </div>
                     </div>
                 </div>
-               <div class="row">
+                <div class="row">
                     <?php
-                     $creativas = $queryBuilder->getTableActividades(3);
-                    foreach($creativas as $creativa): ?>
+                    $creativas = $queryBuilder->getTableActividades(3);
+                    foreach ($creativas as $creativa):
+                        ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?=$creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?=$creativa['informacion_actividad'] ?></p>
+                                    <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
                         </div>
                         <?php
-                        endforeach;
+                    endforeach;
                     ?>
                 </div>  
 
@@ -96,21 +99,22 @@ include 'core/Factory.php';
                         </div>
                     </div>
                 </div>
-                 <div class="row">
+                <div class="row">
                     <?php
-                     $creativas = $queryBuilder->getTableActividades(2);
-                    foreach($creativas as $creativa): ?>
+                    $creativas = $queryBuilder->getTableActividades(2);
+                    foreach ($creativas as $creativa):
+                        ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?=$creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?=$creativa['informacion_actividad'] ?></p>
+                                    <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
                         </div>
                         <?php
-                        endforeach;
+                    endforeach;
                     ?>
                 </div>  
                 <div class="row">
@@ -123,19 +127,20 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                     $creativas = $queryBuilder->getTableActividades(4);
-                    foreach($creativas as $creativa): ?>
+                    $creativas = $queryBuilder->getTableActividades(4);
+                    foreach ($creativas as $creativa):
+                        ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?=$creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?=$creativa['informacion_actividad'] ?></p>
+                                    <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
                         </div>
                         <?php
-                        endforeach;
+                    endforeach;
                     ?>
                 </div>  
                 <div class="row">
@@ -147,21 +152,22 @@ include 'core/Factory.php';
                         </div>
                     </div>
                 </div>
-                 <div class="row">
+                <div class="row">
                     <?php
-                     $creativas = $queryBuilder->getTableActividades(5);
-                    foreach($creativas as $creativa): ?>
+                    $creativas = $queryBuilder->getTableActividades(5);
+                    foreach ($creativas as $creativa):
+                        ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?=$creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?=$creativa['informacion_actividad'] ?></p>
+                                    <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
                         </div>
                         <?php
-                        endforeach;
+                    endforeach;
                     ?>
                 </div>  
                 <div class="row">
@@ -175,19 +181,20 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                     $creativas = $queryBuilder->getTableActividades(6);
-                    foreach($creativas as $creativa): ?>
+                    $creativas = $queryBuilder->getTableActividades(6);
+                    foreach ($creativas as $creativa):
+                        ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?=$creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?=$creativa['informacion_actividad'] ?></p>
+                                    <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
                         </div>
                         <?php
-                        endforeach;
+                    endforeach;
                     ?>
                 </div>  
             </div>
@@ -198,7 +205,7 @@ include 'core/Factory.php';
             </div>
             <div class="row">
                 <div class="col l12">
-                    
+
                 </div>
             </div>
             <?php

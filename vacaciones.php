@@ -10,7 +10,9 @@ $vacaciones = $queryBuilder->getTableVacaciones();
     <head>
         <meta charset="UTF-8">
         <title>Vacaciones</title>
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
         <script src="resources/js/materialize.min.js"></script>
         <script src="resources/js/navbar.js"></script>
         <link rel="stylesheet" href="resources/css/materialize.css">
