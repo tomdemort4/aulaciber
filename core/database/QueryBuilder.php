@@ -27,13 +27,13 @@ class QueryBuilder {
 
     public function getTableActividades($categoria) {
 
-        $query = "Select * from actividades where categoria_actividad = $categoria";
+        $query = "Select * from actividades where categoria_actividad = ?";
 
 
         try {
             $statement = $this->pdo->prepare($query);
 
-            $statement->execute();
+            $statement->execute(array($categoria));
         } catch (Exception $ex) {
             die($ex->getMessage());
         }
