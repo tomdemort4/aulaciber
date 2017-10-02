@@ -13,8 +13,5 @@ $pdo = Connection::getConnection($config['database']);
 $queryBuilder = new QueryBuilder($pdo);
 
 
-$noticias = $queryBuilder->getTable('noticias');
 
-$actividades = $queryBuilder->getTable('actividades');
 
-$vacaciones = $queryBuilder->getTable('noticias_vacaciones');
