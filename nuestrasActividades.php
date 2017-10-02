@@ -17,7 +17,6 @@ include 'core/Factory.php';
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script src="resources/js/navbar.js"></script>
         <link rel="stylesheet" href="resources/css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     </head>
