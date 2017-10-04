@@ -1,8 +1,5 @@
 
-<?php
-require './core/Factory.php';
 
-$vacaciones = $queryBuilder->getTableVacaciones();
 ?>
 
 <!DOCTYPE html>

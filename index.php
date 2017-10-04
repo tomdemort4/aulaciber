@@ -2,6 +2,8 @@
 require './core/Factory.php';
 
 $noticias = $queryBuilder->getTableNoticias();
+
+
 ?>
 <!DOCTYPE html>
 

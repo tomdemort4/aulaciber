@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <?php
 include 'core/Factory.php';
+
+
 ?>
 
 <html>
@@ -46,8 +48,7 @@ include 'core/Factory.php';
                 <div class="row">
                     <?php
                     $creativas = $queryBuilder->getTableActividades(1);
-                    foreach ($creativas as $creativa):
-                        ?>
+
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
@@ -72,9 +73,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getTableActividades(3);
-                    foreach ($creativas as $creativa):
-                        ?>
+
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
@@ -100,9 +99,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getTableActividades(2);
-                    foreach ($creativas as $creativa):
-                        ?>
+
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
@@ -126,9 +123,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getTableActividades(4);
-                    foreach ($creativas as $creativa):
-                        ?>
+
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
@@ -153,9 +148,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getTableActividades(5);
-                    foreach ($creativas as $creativa):
-                        ?>
+
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
@@ -180,9 +173,7 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getTableActividades(6);
-                    foreach ($creativas as $creativa):
-                        ?>
+
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
