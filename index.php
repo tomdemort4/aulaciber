@@ -3,6 +3,7 @@ require './core/Factory.php';
 
 $noticias = $queryBuilder->getTableNoticias();
 
+
 ?>
 <!DOCTYPE html>
 
@@ -11,11 +12,12 @@ $noticias = $queryBuilder->getTableNoticias();
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Aulaciber</title>
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
-        <script src="resources/js/materialize.min.js"></script>
-        <script src="resources/js/navbar.js"></script>
-        <script src="resources/js/index.js"></script>
-        <link rel="stylesheet" href="resources/css/materialize.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <link rel="stylesheet" href="resources/css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
@@ -53,7 +55,7 @@ $noticias = $queryBuilder->getTableNoticias();
                     </div>
                 </div>
             </div>
-          
+
             <div class="bloquesInformativos">
                 <div class="tituloBloquesInformativos">
                     <div class="row">
@@ -88,29 +90,29 @@ $noticias = $queryBuilder->getTableNoticias();
             </div> 
 
             <div class="row">
-                 <?php foreach ($noticias as $noticia) : ?>
-                
-                <div class="col s12 m7 l6">
-                    <h2  class="header"><?=$noticia['titulo'] ?></h2>
-                   
-                    <div class="card horizontal">
-                        <div class="card-image">
-                            <img src="resources/img/<?=$noticia['url_imagen']  ?>">
-                        </div>
-                        <div class="card-stacked">
-                            <div class="card-content">
-                                <p style="text-align: initial"><?=$noticia['descripcion_noticia']  ?></p>
+                <?php foreach ($noticias as $noticia) : ?>
+
+                    <div class="col s12 m7 l6">
+                        <h2  class="header"><?= $noticia['titulo'] ?></h2>
+
+                        <div class="card horizontal">
+                            <div class="card-image">
+                                <img src="resources/img/<?= $noticia['url_imagen'] ?>">
                             </div>
-                            <div class="card-action">
-                                <a href="resources/pdf/<?=$noticia['archivo_pdf']?>"><?= $noticia['titulo_pdf'] ?></a>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <p style="text-align: initial"><?= $noticia['descripcion_noticia'] ?></p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="resources/pdf/<?= $noticia['archivo_pdf'] ?>"><?= $noticia['titulo_pdf'] ?></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                   <?php
-            endforeach;
-            ?>
-               
+                    <?php
+                endforeach;
+                ?>
+
             </div>
             <div class="row" style="background: white;margin-bottom: -3px;padding: 2%">
                 <div class="col l12">
@@ -119,7 +121,7 @@ $noticias = $queryBuilder->getTableNoticias();
             </div>
             <div class="row">
                 <div class="col l12">
-                    
+
                 </div>
             </div>
             <?php

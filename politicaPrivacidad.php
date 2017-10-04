@@ -5,19 +5,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Política de privacidad</title>
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/materialize.min.js"></script>
-        <script src="js/navbar.js"></script>
-        <link rel="stylesheet" href="css/materialize.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="resources/css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div class="wrapper">
-            
-           <?php require './shared//navbar.php'; ?>
-            
+
+            <?php require './shared//navbar.php'; ?>
+
             <div class="row">
                 <div class="col l12">
                     <h4 class=" center">Política de privacidad</h4>
@@ -53,6 +56,6 @@
             include './shared/footer.php';
             ?>
         </div>
-        
+
     </body>
 </html>
