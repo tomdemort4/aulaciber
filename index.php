@@ -66,16 +66,16 @@ $noticias = $queryBuilder->getTableNoticias();
                 <div class="row">
                     <div class="col l4">
                         <p>"Queremos ilusionarte con nuestra programación de actividades . "</p>
-                        <img class="imagenInformativo" src="resources/img/tablon.jpg">
+                        <img class="imagenInformativo" src="resources/img/schooling.jpg">
                     </div>
                     <div class="col l4">
                         <p>"Actividades formativas con metodología activa y talleres lúdicos. "</p>
-                        <img class="imagenInformativo" src="resources/img/DanceKids.jpg">
+                        <img class="imagenInformativo" src="resources/img/schooling.jpg">
 
                     </div>
                     <div class="col l4">
                         <p>"Personal titulado y capacitado para hacer lo que tu quieras. Siempre dispuestos a todo."</p>
-                        <img class="imagenInformativo" src="resources/img/fotito.jpg">
+                        <img class="imagenInformativo" src="resources/img/schooling.jpg">
 
                     </div>
                 </div>
@@ -96,7 +96,7 @@ $noticias = $queryBuilder->getTableNoticias();
 
                         <div class="card horizontal">
                             <div class="card-image">
-                                <img src="resources/img/<?= $noticia['url_imagen'] ?>">
+                                <img src="resources/img/school.jpg">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">

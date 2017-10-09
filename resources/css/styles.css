@@ -266,6 +266,7 @@ h3{
     .tituloBloquesInformativos h4{
         
         font-size: 4em;
+        color: white;
     }
 
     .bloquesInformativos{
@@ -289,9 +290,11 @@ h3{
     }
 
     .titularNoticias h4{
-        color: #9CADD3;
+        color: #70bced;
         font-size: 4em;
     }
+
+
     nav ul a{
         color: #9CADD3;
     }
@@ -355,7 +358,7 @@ h3{
 
 
     .headerNosotros{
-        color:#9CADD3;
+        color:white;
         font-size: 20px;
         
         
@@ -368,8 +371,13 @@ h3{
 
     .header{
         font-size: 30px;
+        color: white;
+        text-align: center;
     }
 
+    .card .card-content{
+        background:none;
+    }
 
     .bloqueActividades{
         width: 80%;
@@ -377,8 +385,8 @@ h3{
 
     .categoriaActividad{
         margin-top: 20px;
-        background: white;
-        color: #9CADD3;
+        
+        color: white;
         padding: 2%;
     }
     .catalogoActividades{
@@ -387,12 +395,17 @@ h3{
 
     }
 
+    .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+ 
+        box-shadow: none;
+ }
+
 
     .catalogoActividades h4{
         font-size: 4em;
     }
     .imagenInformativo{
-        width: 100%;
+        width: 90%;
         height: 300px;
     }
 
