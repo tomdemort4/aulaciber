@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <?php
 include 'core/Factory.php';
@@ -48,6 +46,7 @@ include 'core/Factory.php';
                 <div class="row">
                     <?php
                     $creativas = $queryBuilder->getTableActividades(1);
+                    foreach ($creativas as $creativa) :?>
 
                         <div class="col s12 m6 col col l4">
                             <div class="card">
@@ -73,12 +72,13 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-
+                    $idiomas = $queryBuilder->getTableActividades(1);
+                    foreach ($idiomas as $idioma) :?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $idioma['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?= $creativa['informacion_actividad'] ?></p>
+                                    <p><?= $idioma['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
@@ -99,12 +99,13 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-
+                    $tecnologicas = $queryBuilder->getTableActividades(1);
+                    foreach ($tecnologicas as $teconologica) :?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $teconologica['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?= $creativa['informacion_actividad'] ?></p>
+                                    <p><?= $teconologica['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
@@ -123,12 +124,13 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-
+                    $ayudaEstudio = $queryBuilder->getTableActividades(1);
+                    foreach ($ayudaEstudio as $estudio) : ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $estudio['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?= $creativa['informacion_actividad'] ?></p>
+                                    <p><?= $estudio['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
@@ -148,12 +150,13 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-
+                    $musicales = $queryBuilder->getTableActividades(1);
+                    foreach ($musicales as $musical) : ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $musical['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?= $creativa['informacion_actividad'] ?></p>
+                                    <p><?= $musical['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
@@ -173,12 +176,13 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-
+                    $deportivas = $queryBuilder->getTableActividades(1);
+                    foreach ($deportivas as $deportiva) : ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
-                                <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
+                                <img src="resources/img/actividades/<?= $deportiva['url_imagen'] ?>">
                                 <div class="card-content">
-                                    <p><?= $creativa['informacion_actividad'] ?></p>
+                                    <p><?= $deportiva['informacion_actividad'] ?></p>
                                 </div>
 
                             </div>
@@ -199,7 +203,7 @@ include 'core/Factory.php';
                 </div>
             </div>
             <?php
-            include './shared//footer.php';
+            include './shared/footer.php';
             ?>
 
         </div>
