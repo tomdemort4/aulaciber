@@ -1,13 +1,9 @@
-
 *{
     font-family: 'Source Sans Pro', sans-serif;
-
-
 }
 
 .logoPrincipal{
     display: none;
-
 }
 
 .datos{
@@ -15,12 +11,7 @@
     border: 1px solid #f0f2f1;
     margin-bottom: 10px;
     background: white;
-
 }
-
-
-
-
 
 h3{
     font-size: 100%;
@@ -28,8 +19,6 @@ h3{
 .wrapper{
     width: 100%;
     margin: 0 auto;
-
-
 }
 
 .politicaPrivacidad{
@@ -39,8 +28,6 @@ h3{
 .slider{
     display: none;
 }
-
-
 
 .card-title{
     text-align: center;
@@ -54,44 +41,37 @@ nav .brand-logo{
     line-height: 50px;
 }
 
-
-
-
 .listaDeItems{
     text-align: justify;
 }
 
 .tituloBloque h4{
     padding: 8%;
-
 }
+
 p{   
     font-size: 20px;
-
 }
 
 input[type="text"],input[type="date"],textarea,input[type="email"],.select-wrapper input.select-dropdown {
     border: 1px solid #f0f2f1;
     background: white;
-
 }
-
 
 .horariosActividades{
     padding: 4%;
 }
 
 .card{
-
     text-align: justify;
 }
-nav {
 
+nav {
     background: transparent;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     line-height: 100px;
-
 }
+
 nav ul a{
     color: black;
     font-size: 23px;
@@ -100,15 +80,11 @@ nav ul a{
 .bloqueNoticias{
     margin-top: -100px;
     text-align: center;
-
-
 }
-
 
 .tituloNosotros,.bloques{
     text-align: justify;
 }
-
 
 .card-title{
     font-size: 25px;
@@ -116,32 +92,23 @@ nav ul a{
 
 .card-action{
     font-size: 20px;
-
 }
-
-
 
 .bloquesInformativos{
     text-align: center;
-
 }
 
 .bloquesInformativos p{
     font-size: 28px;
-
 }
-
 
 .progress{
     display: none;
 }
 
-
-
 .catalogoActividades{
     padding: 10%;
     font-size: 20px;
-
 }
 
 h3{
@@ -152,16 +119,12 @@ h3{
     font-size: 20px;
 }
 
-
 .contenidoBloque{
     text-align: justify;
 }
 
-
-
 .card .card-image{
     text-align: center;
-
 }
 
 .imagenInformativo{
@@ -178,13 +141,13 @@ h3{
     height: 60px;
     margin-left:-12px;
 }
+
 #twitter{
     background-image: url('../img/socialicons____.png');
     width: 42px;
     height: 60px;
     background-position: -281px 0px;
     margin-left: 8px;
-
 }
 
 #youtube{
@@ -202,13 +165,9 @@ h3{
     background-position: -155px 0px;
 }
 
-
 @media only screen and (min-width: 1024px) {
-
-
     body{
         background: #70bced;
-
     }
 
     .logoPrincipal{
@@ -238,7 +197,6 @@ h3{
         background: #70bced;
     }
 
-
     nav .brand-logo {
         display: none;
     }
@@ -248,7 +206,6 @@ h3{
         line-height: 100px;
         box-shadow: none;
         background-color: white;
-
     }
 
     nav ul li a{
@@ -259,10 +216,10 @@ h3{
         background: none;
     }
 
-
     .contactForm{
         background: white;
     }
+
     .tituloBloquesInformativos h4{
         
         font-size: 4em;
@@ -282,11 +239,8 @@ h3{
         background: white;
     }
 
-
-
     .bloqueTitular h4{
         font-size: 4em;
-
     }
 
     .titularNoticias h4{
@@ -294,14 +248,11 @@ h3{
         font-size: 4em;
     }
 
-
     nav ul a{
         color: #9CADD3;
     }
 
-
     form{
-
         color: #9CADD3;
     }
 
@@ -336,33 +287,23 @@ h3{
 
     .bloques h4{
         color: #9CADD3;
-
     }
-
 
     .btn{
         background: #9CADD3;
     }
 
-
-
     .footer{
-
         background: #70bced;
-
     }
     
     .formulario{
         background: white;
     }
 
-
     .headerNosotros{
         color:white;
         font-size: 20px;
-        
-        
-
     }
 
     .headerNosotros h4{
@@ -385,25 +326,23 @@ h3{
 
     .categoriaActividad{
         margin-top: 20px;
-        
         color: white;
         padding: 2%;
     }
+
     .catalogoActividades{
         background: white;
         color: #70bced;
-
     }
 
     .z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
- 
         box-shadow: none;
- }
-
+    }
 
     .catalogoActividades h4{
         font-size: 4em;
     }
+
     .imagenInformativo{
         width: 90%;
         height: 300px;
@@ -417,7 +356,6 @@ h3{
         font-size: 20px;
         padding:4px;
         text-align: center;
-
     }
 
     .bloqueHoras{
@@ -429,7 +367,6 @@ h3{
     }
 
     .carousel img{
-
         height: 412px;
     }
 
@@ -446,27 +383,35 @@ h3{
         background: none;
     }
 
-    input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-    background-color: transparent;
-    border: 1px solid lightgray;
-    border-radius: 0;
-    outline: none;
-    height: 3rem;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0 0 20px 0;
-    padding: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-
-
+    input:not([type]), 
+    input[type=text]:not(.browser-default), 
+    input[type=password]:not(.browser-default), 
+    input[type=email]:not(.browser-default), 
+    input[type=url]:not(.browser-default), 
+    input[type=time]:not(.browser-default), 
+    input[type=date]:not(.browser-default), 
+    input[type=datetime]:not(.browser-default), 
+    input[type=datetime-local]:not(.browser-default), 
+    input[type=tel]:not(.browser-default), 
+    input[type=number]:not(.browser-default), 
+    input[type=search]:not(.browser-default), 
+    textarea.materialize-textarea {
+        background-color: transparent;
+        border: 1px solid lightgray;
+        border-radius: 0;
+        outline: none;
+        height: 3rem;
+        width: 100%;
+        font-size: 1rem;
+        margin: 0 0 20px 0;
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
 }
 
 

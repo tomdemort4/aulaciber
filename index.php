@@ -2,25 +2,21 @@
 require './core/Factory.php';
 
 $noticias = $queryBuilder->getTableNoticias();
-
-
 ?>
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Aulaciber</title>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <link rel="stylesheet" href="resources/css/styles.css">
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div class="wrapper">
@@ -29,13 +25,11 @@ $noticias = $queryBuilder->getTableNoticias();
             <div class="logoPrincipal">
                 <div class="row">
                     <div class="col l6">
-
                         <p>aulaciber</p>
                         <p style="font-family:'Caveat' ;font-size: 3.5em;margin-top: -139px">el ocio más educativo</p>
                     </div>           
                     <div class="col l6">
                         <div class="carousel carousel-slider center" data-indicators="true">
-
                             <div class="carousel-item red white-text" href="#one!">
                                 <img src="resources/img/IMG_2634.jpg">
                             </div>
@@ -48,9 +42,7 @@ $noticias = $queryBuilder->getTableNoticias();
                             <div class="carousel-item green white-text" href="#three!">
                                 <img src="resources/img/tablon.jpg">
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -76,7 +68,6 @@ $noticias = $queryBuilder->getTableNoticias();
                     <div class="col l4">
                         <p>"Personal titulado y capacitado para hacer lo que tu quieras. Siempre dispuestos a todo."</p>
                         <img class="imagenInformativo" src="resources/img/schooling.jpg">
-
                     </div>
                 </div>
             </div>     
@@ -93,7 +84,6 @@ $noticias = $queryBuilder->getTableNoticias();
 
                     <div class="col s12 m7 l6">
                         <h2  class="header"><?= $noticia['titulo'] ?></h2>
-
                         <div class="card horizontal">
                             <div class="card-image">
                                 <img src="resources/img/school.jpg">

@@ -1,28 +1,18 @@
-
-
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Vacaciones</title>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <link rel="stylesheet" href="resources/css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div class="wrapper">
-
             <?php require './shared/navbar.php'; ?>
             <div class="tituloBloquesInformativos">
                 <div class="row">
@@ -51,13 +41,9 @@
                             </div>
                         </div>
                     </div>
-
-
                 <?php endforeach; ?>
             </div>
-            <?php
-            require './shared/footer.php';
-            ?>
+            <?php require './shared/footer.php'; ?>
         </div>
     </body>
 </html>

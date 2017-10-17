@@ -1,8 +1,6 @@
-
 <?php
 
 return [
-
     'database' => [
         'name' => 'aulaciberfinalproject',
         'username' => 'root',
@@ -13,5 +11,3 @@ return [
         ]
     ]
 ];
-
-

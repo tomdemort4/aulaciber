@@ -1,23 +1,16 @@
-
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reserva</title>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <link rel="stylesheet" href="resources/css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div class="wrapper">
@@ -53,7 +46,6 @@
                             <div class="col s6 col m6 col l3">
                                 <input type="text"name="telefonoAdulto" required>
                             </div>
-
                         </div>
                         <div class="row">
                             <div class="col s6 col m6 col l3">
@@ -75,7 +67,6 @@
                                     <h4>Datos del alumno</h4>
                                 </div>
                             </div>
-
                             <div class="col s6 col m6 col l1">
                                 <p> Nombre</p> 
                             </div>
@@ -94,7 +85,6 @@
                             <div class="col s6 col m6 col l2">
                                 <input type="text"name="edadAlumno" required>
                             </div>
-
                         </div>
                         <div class="row">
                             <div class="col s6 col m6 col offset-l2 col l3">
@@ -283,7 +273,6 @@
                                 <input type="submit" name="enviar" value="Enviar reserva" class="btn">
                             </div>
                         </div>
-
                     </form>
 
                 </div>
@@ -292,14 +281,8 @@
 
                     </div>
                 </div>
-
-
             </div>
-
-
-            <?php
-            include './shared/footer.php';
-            ?>
+            <?php include './shared/footer.php'; ?>
         </div>
     </body>
 </html>

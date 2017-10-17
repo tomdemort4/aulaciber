@@ -1,28 +1,19 @@
-<!DOCTYPE html>
 <?php
 include 'core/Factory.php';
-
-
 ?>
-
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Actividades</title>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
         <link rel="stylesheet" href="resources/css/styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     </head>
-   <script>
-
-   console.log("hola");
-   </script>
     <body>
         <div class="wrapper">
             <?php require './shared/navbar.php'; ?>
@@ -34,11 +25,8 @@ include 'core/Factory.php';
                 </div>
             </div>
 
-
             <div class="bloquesActividades">
-
                 <div class="row">
-
                     <div class="col l12">
                         <div class="categoriaActividad">
                             <h2>Creativas</h2>
@@ -48,24 +36,22 @@ include 'core/Factory.php';
                 </div>
                 <div class="row">
                     <?php
-                    $creativas = $queryBuilder->getTableActividades(1);
-                    foreach ($creativas as $creativa) :?>
 
+                    $creativas = $queryBuilder->getTableActividades(1);
+
+                    foreach ($creativas as $creativa) :
+                    ?>
                         <div class="col s12 m6 col col l4">
                             <div class="card">
                                 <img src="resources/img/actividades/<?= $creativa['url_imagen'] ?>">
                                 <div class="card-content">
                                     <p><?= $creativa['informacion_actividad'] ?></p>
                                 </div>
-
                             </div>
                         </div>
-                        <?php
-                    endforeach;
-                    ?>
+                    <?php endforeach; ?>
                 </div>  
                 <div class="row">
-
                     <div class="col l12">
                         <div class="categoriaActividad">
                             <h2>Idiomas</h2>
@@ -86,13 +72,10 @@ include 'core/Factory.php';
 
                             </div>
                         </div>
-                        <?php
-                    endforeach;
-                    ?>
+                    <?php endforeach; ?>
                 </div>  
 
                 <div class="row">
-
                     <div class="col l12">
                         <div class="categoriaActividad">
                             <h2>Tecnológicas</h2>
@@ -110,12 +93,9 @@ include 'core/Factory.php';
                                 <div class="card-content">
                                     <p><?= $teconologica['informacion_actividad'] ?></p>
                                 </div>
-
                             </div>
                         </div>
-                        <?php
-                    endforeach;
-                    ?>
+                    <?php endforeach; ?>
                 </div>  
                 <div class="row">
                     <div class="col l12">
@@ -138,12 +118,9 @@ include 'core/Factory.php';
 
                             </div>
                         </div>
-                        <?php
-                    endforeach;
-                    ?>
+                    <?php endforeach; ?>
                 </div>  
                 <div class="row">
-
                     <div class="col l12">
                         <div class="categoriaActividad">
                             <h2>Musicales</h2>
@@ -164,12 +141,9 @@ include 'core/Factory.php';
 
                             </div>
                         </div>
-                        <?php
-                    endforeach;
-                    ?>
+                    <?php endforeach; ?>
                 </div>  
                 <div class="row">
-
                     <div class="col l12">
                         <div class="categoriaActividad">
                             <h2>Deportivas</h2>
@@ -190,9 +164,7 @@ include 'core/Factory.php';
 
                             </div>
                         </div>
-                        <?php
-                    endforeach;
-                    ?>
+                    <?php endforeach; ?>
                 </div>  
             </div>
             <div class="row" style="background: white;margin-bottom: -3px;padding: 2%">
@@ -202,14 +174,9 @@ include 'core/Factory.php';
             </div>
             <div class="row">
                 <div class="col l12">
-
                 </div>
             </div>
-            <?php
-            include './shared/footer.php';
-            ?>
-
+            <?php include './shared/footer.php'; ?>
         </div>
-
     </body>
 </html>

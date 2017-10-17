@@ -1,4 +1,3 @@
- 
 <nav>
     <div class="nav-wrapper">
         <a href="/index" class="brand-logo">aulaciber</a>
@@ -18,7 +17,6 @@
             <li><a href="contacto.php">Contacto</a></li>
             <li><a href="reserva.php">Reservas</a></li>
             <li><a href="vacaciones.php">Vacaciones</a></li>
-
         </ul>
     </div>
 </nav>
